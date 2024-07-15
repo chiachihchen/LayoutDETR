@@ -5,7 +5,7 @@
 
 Salesforce Research
 
-arXiv 2023
+ECCV 2024
 
 ### [paper](https://arxiv.org/pdf/2212.09877.pdf) | [project page](https://ningyu1991.github.io/projects/LayoutDETR.html)
 
@@ -104,14 +104,14 @@ where
 - The values of generated bbox parameters [cy, cx, h, w] can be read from the variable `bbox_fake` (in the shape of BxNx4, where B=1 and N=#strings in one ads) in `generate.py`.
 
 ## Citation
-  ```
-  @article{yu2023layoutdetr,
-  	title={LayoutDETR: Detection Transformer Is a Good Multimodal Layout Designer},
-  	author={Yu, Ning and Chen, Chia-Chih and Chen, Zeyuan and Meng, Rui and Wu, Gang and Josel, Paul and Niebles, Juan Carlos and Xiong, Caiming and Xu, Ran},
-  	journal={arXiv preprint arXiv:2212.09877},
-  	year={2023}
-	}
-  ```
+```Bibtex
+@inproceedings{yu2024layoutdetr,  
+   title={LayoutDETR: Detection Transformer Is a Good Multimodal Layout Designer},
+   author={Yu, Ning and Chen, Chia-Chih and Chen, Zeyuan and Meng, Rui and Wu, Gang and Josel, Paul and Niebles, Juan Carlos and Xiong, Caiming and Xu, Ran},
+   booktitle={European Conference on Computer Vision (ECCV)},
+   year={2024}
+}
+```
 
 ## Acknowledgement
 - We thank Abigail Kutruff, [Brian Brechbuhl](https://www.linkedin.com/in/brianbrechbuhl), [Elham Etemad](https://ca.linkedin.com/in/elhametemad), and [Amrutha Krishnan](https://www.linkedin.com/in/amruthakrishnan) from Salesforce for constructive advice.
